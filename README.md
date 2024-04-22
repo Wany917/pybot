@@ -24,9 +24,9 @@ you@your-pc:~$ pip install . # or .[dev] for development
 
 Then you need to create a `.env` file in the root of the project with the following content:
 
-| Variable                             | Description                                                                                        | Required |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------- | -------- |
-| DISCORD_TOKEN                        | The token of your bot.                                                                             | Yes      |
+| Variable                             | Description                                                                                        | Required  |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------- | --------  |
+| DISCORD_TOKEN                        | The token of your bot.                                                                             | Yes       |
 | MAX_TIMESTAMP_BETWEEN_PARTICIPATIONS | The maximum time in seconds between two participations to be considered as a single participation. | Yes       |
 | DISCORD_COMMAND_PREFIX               | The prefix of the commands.                                                                        | Yes       |
 
